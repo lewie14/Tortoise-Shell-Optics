@@ -1,19 +1,36 @@
-* {
-  font-family: Helvetica, Arial, sans-serif;
-}
 
 
-h1 {
-  color: SeaGreen;
-}
-
-
-p,
-li {
+/* Set the base fontsize */
+html {
   font-size: 18px;
 }
 
+/* Set font family */
+body {
+  font-family: "Helvetica", sans-serif;
+  /* line-height: 1.4; */
+}
+/* Set basic container parameters */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
 
-a {
-  text-decoration: none;
+/* Set all h1,h4 to bold */
+/* h1,
+h4 {
+  font-weight: bold;
+} */
+
+
+/* ---------------------Header-------------------------  */
+
+/* Sets specific header logo parameters */
+
+.splash{
+  background: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  height: 30rem;
 }
