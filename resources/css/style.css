@@ -3,12 +3,14 @@
 /* Set the base fontsize */
 html {
   font-size: 18px;
+  font-family: "Helvetica", sans-serif;
+  background-color: white;
 }
 
-/* Set font family */
+/* Set line height */
 body {
-  font-family: "Helvetica", sans-serif;
-  /* line-height: 1.4; */
+  line-height: 1.4;
+
 }
 /* Set basic container parameters */
 .container {
@@ -26,11 +28,3 @@ h4 {
 /* ---------------------Header-------------------------  */
 
 /* Sets specific header logo parameters */
-
-.splash{
-  background: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png");
-  background-repeat: no-repeat;
-  background-position: left;
-  background-size: cover;
-  height: 30rem;
-}
