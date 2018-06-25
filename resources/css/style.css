@@ -85,3 +85,8 @@ nav li {
   margin-right: -2rem;
   background-color: white;
 }
+
+/* makes all flex in the header start from the right */
+header .flex {
+  justify-content: flex-end;
+}
