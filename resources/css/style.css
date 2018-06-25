@@ -32,6 +32,7 @@ h4 {
 
 /* ---------------------Header-------------------------  */
 
+/* Whole area of the glasses image */
 header {
   height: 30rem;
   padding-top: 1rem;
@@ -41,4 +42,19 @@ header {
   background-size: cover;
 }
 
-/* Sets specific header logo parameters */
+/* Makes the cadetblue box - Logo and menu appear inside this  */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+  background-color: cadetblue;
+  color: white;
+}
+
+
+
+/* nav div {
+  display: flex;
+  align-items: center;
+} */
