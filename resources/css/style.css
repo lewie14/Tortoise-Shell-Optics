@@ -52,9 +52,8 @@ nav {
   color: white;
 }
 
-
-
-/* nav div {
+/* Makes a flexbox for logo and Title */
+nav div {
   display: flex;
   align-items: center;
-} */
+}
