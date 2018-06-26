@@ -138,3 +138,22 @@ header .flex {
   font-weight: bold;
   color: white;
 }
+
+
+/* --------------------footer--------------------- */
+
+
+/* Makes an azure box which extends out of container */
+footer {
+  display: flex;
+  align-items: center;
+  background-color: azure;
+  padding: 4rem 2rem;
+}
+
+/* moves image away from the text */
+footer img {
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
