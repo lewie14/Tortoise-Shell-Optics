@@ -115,3 +115,17 @@ header .flex {
   width: 5rem;
   margin-bottom: 1rem;
 }
+
+/* ------------------Philospohy and appointments----------- */
+
+/* Set width of the 2 sections  */
+.info {
+  width: 35%;
+  margin-right: 5%;
+  margin-bottom: 4rem;
+}
+
+/* Distance between title and text */
+.info p {
+  padding: 1rem 0;
+}
