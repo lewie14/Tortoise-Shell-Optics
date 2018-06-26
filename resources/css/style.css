@@ -99,6 +99,7 @@ header .flex {
   justify-content: center;
 }
 
+/* Makes a flexbox for each individual icon  */
 .service {
   display: flex;
   flex-direction: column;
@@ -108,4 +109,9 @@ header .flex {
   height: 8rem;
   margin: 3rem;
   text-align: center;
+}
+
+.service img {
+  width: 5rem;
+  margin-bottom: 1rem;
 }
