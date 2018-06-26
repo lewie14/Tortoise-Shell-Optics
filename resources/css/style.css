@@ -129,3 +129,12 @@ header .flex {
 .info p {
   padding: 1rem 0;
 }
+
+/*  Makes the cadetblue box around the title */
+.title {
+  max-width: 10rem;
+  padding: 0.5rem 1.25rem;
+  background-color: cadetblue;
+  font-weight: bold;
+  color: white;
+}
