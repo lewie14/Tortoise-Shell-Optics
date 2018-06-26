@@ -90,3 +90,11 @@ nav li {
 header .flex {
   justify-content: flex-end;
 }
+
+/* ----------------------The three icons--------------------- */
+
+
+.threeicons {
+  display: flex;
+  justify-content: center;
+}
