@@ -93,8 +93,19 @@ header .flex {
 
 /* ----------------------The three icons--------------------- */
 
-
+/* Makes a flexbox for the 3 icons */
 .threeicons {
   display: flex;
   justify-content: center;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 5rem;
+  height: 8rem;
+  margin: 3rem;
+  text-align: center;
 }
