@@ -94,7 +94,7 @@ header .flex {
 /* ----------------------The three icons--------------------- */
 
 /* Makes a flexbox for the 3 icons */
-.threeicons {
+.supporting {
   display: flex;
   justify-content: center;
 }
