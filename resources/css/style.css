@@ -178,18 +178,33 @@ footer img {
     height: 22rem;
     padding-top: 0;
   }
-
+/* Sets the NAV to 100% of 1024 */
   nav.container {
     max-width: 100%;
   }
 
-  /* .main-banner {
+  .main-banner {
     padding: 0.75rem 4rem;
     margin-top: 5rem;
     margin-right: 2rem;
-  } */
+  }
 
-  /* .main-banner h1 {
+  .main-banner h1 {
     font-size: 1.33rem;
-  } */
+  }
+}
+
+/* ------Screens max width 700 i.e. large smartphone*/
+
+@media only screen and (max-width: 700px) {
+
+  /* Makes list menu disappear */
+  .menu ul {
+    display: none;
+  }
+
+  /* Displays the word "Menu" */
+  .menu ul.truncated-menu {
+    display: block;
+  }
 }
