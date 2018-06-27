@@ -208,3 +208,73 @@ footer img {
     display: block;
   }
 }
+
+
+/* ------Screens max width 560 i.e.smartphone*/
+
+@media only screen and (max-width: 560px) {
+
+  /* Header Section */
+  header div span {
+    display: none;
+  }
+
+  header {
+    background-position: 20%;
+    height: 17rem;
+  }
+
+  .main-banner {
+    width: 100%;
+    padding: 0 1rem;
+    margin: 9rem auto 0 auto;
+    text-align: center;
+  }
+
+  .main-banner h1 {
+    font-size: 1rem;
+  }
+
+/* 3 icons section */
+.supporting {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+/* Philospohy and Appointments Section */
+.service {
+  height: auto;
+  margin: .77rem;
+  font-size: .77rem;
+}
+
+  /* Info underneath Phil and App */
+  .info {
+    width: 100%;
+  }
+
+  .info .title {
+    width: 100%;
+    max-width: none;
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .info p {
+    padding: 1rem;
+    font-size: .77rem;
+  }
+
+/* Footer */
+
+
+  footer {
+    justify-content: center;
+  }
+
+  footer div {
+    display: none;
+  }
+}
